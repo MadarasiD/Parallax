@@ -1,57 +1,74 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    color: rgb(123, 106, 106);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html,body{
+	
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: 'Arial', Helvetica, san-serif;
+	
 }
 
-.pimg1, .pimg2, .pimg3 {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.70;
-    width: 100%;
+.pimg1,.pimg2,.pimg3{
+	
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.70;
 }
 
-.pimg1 {
-    background: url("./img/image1.jpg");
-    min-height: 400px;
+.pimg1{
+	
+	background-image: url("img/image1.jpg");
+	min-height: 100%;
 }
 
-.pimg2 {
-    background: url("./img/image2.jpg");
-    min-height: 400px;
+.pimg2{
+	
+	background-image: url("img/image2.jpg");
+	min-height: 400px;
 }
 
-.pimg3 {
-    background: url("./img/image3.jpg");
-    min-height: 400px;
+.pimg3{
+	
+	background-image: url("img/image3.jpg");
+	min-height: 400px;
 }
 
-section {
-    padding: 50px 80px;
-    text-align: center;
+section{
+	
+	padding: 80px 50px;
+	text-align: center;
 }
 
-.section-light {
-    background-color: #f2f2f2;
-    color: #333;
+.section-light{
+	
+	background-color: #f2f2f2;
+	color: #333333;
 }
 
-.section-dark {
-    background-color: #333;
-    color: #f2f2f2;
+.section-dark{
+	
+	background-color: #333;
+	color: #f2f2f2;
 }
 
-.text {
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    width: 100%;
-    color: #fff;
-    font-size: 27px;
-    text-transform: uppercase;
-    letter-spacing: 8px;
+.text{
+	
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-size: 27px;
+	text-transform: uppercase;
+	letter-spacing: 8px; 
 }
+
+.border{
+	
+	padding: 20px;
+	background: #333;
+}
+
